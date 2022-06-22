@@ -1,6 +1,6 @@
 <?php
 
-namespace Optimus\Heimdal\Reporters;
+namespace DigitalwertDevs\Heimdal\Reporters;
 
 use Throwable;
 

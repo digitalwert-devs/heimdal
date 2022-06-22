@@ -1,14 +1,14 @@
 <?php
 
-namespace Optimus\Heimdal;
+namespace DigitalwertDevs\Heimdal;
 
 use Throwable;
 use ReflectionClass;
 use InvalidArgumentException;
 use Asm89\Stack\CorsService;
 use Illuminate\Foundation\Exceptions\Handler as LaravelExceptionHandler;
-use Optimus\Heimdal\Formatters\BaseFormatter;
-use Optimus\Heimdal\Reporters\ReporterInterface;
+use DigitalwertDevs\Heimdal\Formatters\BaseFormatter;
+use DigitalwertDevs\Heimdal\Reporters\ReporterInterface;
 use Illuminate\Contracts\Container\Container;
 
 class ExceptionHandler extends LaravelExceptionHandler
@@ -93,7 +93,7 @@ class ExceptionHandler extends LaravelExceptionHandler
         if ($this->config['add_cors_headers']) {
             if (!class_exists(CorsService::class)) {
                 throw new InvalidArgumentException(
-                    'asm89/stack-cors has not been installed. Optimus\Heimdal needs it for adding CORS headers to response.'
+                    'asm89/stack-cors has not been installed. DigitalwertDevs\Heimdal needs it for adding CORS headers to response.'
                 );
             }
 

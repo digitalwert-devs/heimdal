@@ -1,8 +1,8 @@
 <?php
 
-use Optimus\Heimdal\Formatters\ExceptionFormatter;
-use Optimus\Heimdal\Formatters\HttpExceptionFormatter;
-use Optimus\Heimdal\ResponseFactory;
+use DigitalwertDevs\Heimdal\Formatters\ExceptionFormatter;
+use DigitalwertDevs\Heimdal\Formatters\HttpExceptionFormatter;
+use DigitalwertDevs\Heimdal\ResponseFactory;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 

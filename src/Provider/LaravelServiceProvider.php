@@ -1,11 +1,11 @@
 <?php
 
-namespace Optimus\Heimdal\Provider;
+namespace DigitalwertDevs\Heimdal\Provider;
 
 use Illuminate\Support\ServiceProvider as BaseProvider;
-use Optimus\Heimdal\Reporters\BugsnagReporter;
-use Optimus\Heimdal\Reporters\RollbarReporter;
-use Optimus\Heimdal\Reporters\SentryReporter;
+use DigitalwertDevs\Heimdal\Reporters\BugsnagReporter;
+use DigitalwertDevs\Heimdal\Reporters\RollbarReporter;
+use DigitalwertDevs\Heimdal\Reporters\SentryReporter;
 
 class LaravelServiceProvider extends BaseProvider {
 
